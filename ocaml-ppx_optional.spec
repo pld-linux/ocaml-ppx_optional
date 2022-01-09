@@ -44,7 +44,7 @@ używających biblioteki ppx_optional.
 
 %package devel
 Summary:	Pattern matching on flat options - development part
-Summary(pl.UTF-8):	Dopasowywanie wzorców do płaskich opcji - cześć programistyczna
+Summary(pl.UTF-8):	Dopasowywanie wzorców do płaskich opcji - część programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
