@@ -10,17 +10,16 @@
 Summary:	Pattern matching on flat options
 Summary(pl.UTF-8):	Dopasowywanie wzorców do płaskich opcji
 Name:		ocaml-ppx_optional
-Version:	0.14.0
+Version:	0.16.0
 Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/janestreet/ppx_optional/tags
 Source0:	https://github.com/janestreet/ppx_optional/archive/v%{version}/ppx_optional-%{version}.tar.gz
-# Source0-md5:	7c398967c245d8f35a3e8aa5165641e8
+# Source0-md5:	ab1fe586ffbbd5f90bd56f3cda0873fa
 URL:		https://github.com/janestreet/ppx_optional
 BuildRequires:	ocaml >= 1:4.04.2
 BuildRequires:	ocaml-base-devel >= 0.14
-BuildRequires:	ocaml-base-devel < 0.15
 BuildRequires:	ocaml-dune >= 2.0.0
 BuildRequires:	ocaml-ppxlib-devel >= 0.11.0
 %requires_eq	ocaml-runtime
